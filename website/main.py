@@ -19,7 +19,7 @@ from IPython.display import Image
 import sys
 import os
 
-from arts.images import generate_image_links
+from arts.images import generate_image_names_and_links
 from arts.images import generate_random_display_image_links
 
 api_version = "/api"
@@ -37,7 +37,7 @@ def index():
 @app.route(api_version + "/arts/<art_type>")
 def get_all_image_links(art_type):
     bucket_name = 'aimiefung-art.com'
-    output = generate_image_links(bucket_name, art_type)
+    output = generate_image_names_and_links(bucket_name, art_type)
     return Response(json.dumps(output), status=200)
 
 
