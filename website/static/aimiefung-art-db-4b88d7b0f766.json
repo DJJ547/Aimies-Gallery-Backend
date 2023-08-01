@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "aimiefung-art-db",
+  "private_key_id": "4b88d7b0f76650bd8f7a5f907fb351b7876559f2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCsLGhtkEDBccoQ\nCvNnuLjkRkBkaeOXHOcgoVq58fpPZgC/o8IQ0lRKcKlOiUjQUrRC6X/Xf374Afmt\nrcfBxMbzEe/OtnZhvjzdwADjFYI/X9Fvoa1yE8IGAbuCJ9ikAI8ul6PV82Tcl1Kx\n5M1tO4ygEcsvYOY8A1RcQPWB9XwjGlhM4IOLqxeAG9DPoatqfIVSaKsQiPxvshuP\nA6DEy/eNPrdzqjJqRBPF57OwriXfGmw8NrPzWCE6Ez9LRrIlX5X/idkoBBcku2mY\nS+liIDmpNmoefNB8g5hdq2VNVE5wuE7d+YFo+4bv8hUlgRqY4PkyXT7FEYkpyhnD\n43stJ70rAgMBAAECggEACnz7MLO5MGr699/Jwl5WEHQhZTNmH9dRd16KpS5J29YQ\nUHe1mm8DVlj5csVQcn4Jja+la3U+QNFk2AWnfKu85kgIAuCA4smwzTlcL+bfPS2l\nYMRbtxMEeeUy1hzsbUW8l70mx9hS/pmqZ6ocMX3YmcHylvtqJn0sSrOJLtZdwK2S\nkfJ9P1tBS5uoE1J1oU8MOzJsw7jmueI3G3i1SnJvk9SSkn3znoIVBIXFjcJtqBoo\nfez3VSIeNxA7Y6eKpIx/RepvEQm9ExsZ1juAeLqJ7/PSB2SfAe/txIBZXEEwWgnr\nVPxnGQd61X96BjLODTx2BkhoyDxuJXFQV3iE9GU6IQKBgQDaLhVG+lUsunx6IOsl\nMcQYEtzq6+mNm86iUZmGB0OUH4y3WN1uMT2BVdOmp+RY8dO1C6r2u/3nIKhInYvd\nC7n7ZM5fpTKQMu3yFnDKKEocf9reBuyJb5vPGkoox4st4HZyhvMDlbnzopDU2kwg\n0Q+DhPw8qpUlevUU4ZkHVwtjWQKBgQDKBL8o4ep+4QGdW3boU8rG/MKf43nrV5fa\nougWB/O61udJ8Ys+SOR9F3a5IrtmpKB4DMgCCsHykkotMOdewjzDlJhhvu7jd3Yy\nvHPRxKB2vQEPjzHqseGhg/2djH4Zq1rkFi+UiwjAlYt+VNPI6ml/nVH4vJYIXFSV\ng9PHMYVoIwKBgQC8SAB8nBNc4iIBkt7Z3jSHQd/7q1KFreuIEDsYerRK418f6kRM\nj5mwP0zDCSf5ydcU6djDzD+0cW5IHA1S2IfK9pdR2tHjts+4lr0G9/Xc2kkaSYde\noz4mX12YC3uEP6x38RVOBqvOIIAz7566wy9MJDs4b0z+ZzmQp47T0r41IQKBgQCU\nHVrSbKDzGaGHb7IEsLqxnkxL0gpnpDcwE9S5ombui/XT3wbKScNMe9GN94sSvIzy\nt9xEswJ0CRHdhEd+0Eag1ufKcqTPnZzJoiYAnHtR001dzQ06F+Vn+FAQHRuvUlU3\neZS1AiMOoBZAL41/d26WJBAfoJUX2Coj3R1+pC49pQKBgQCC4OfNMQuaMPKPGmgI\nNu7YGNXEQ8AlXujlm9VPLgSe3PwxyTRj3MzGWWJisCEoKDGB/+BXORjl6HKtpd3y\nQ/zqMSJuo+7Cp6jQQ4SUdWdk/pcsRe4cz2FMKPbf9AjMnwgyBkK7nElc5NBNYwOs\n5Ct8kHXxK8LMFznBz6q3izBI6w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "foo-test@aimiefung-art-db.iam.gserviceaccount.com",
+  "client_id": "106229696980425063249",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/foo-test%40aimiefung-art-db.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
