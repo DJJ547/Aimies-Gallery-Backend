@@ -7,20 +7,14 @@ from flask import Flask, \
     json
 # from flask_cors import CORS
 import requests
-# import packages
 import datetime
 
 import google.cloud.storage
-from io import BytesIO
-from matplotlib import pyplot as plt
-from matplotlib import image as mpimg
-import PIL.Image
-from IPython.display import Image
 import sys
 import os
 
-from arts.images import generate_image_names_and_links
-from arts.images import generate_random_display_image_links
+from website.arts.images import generate_image_names_and_links
+from website.arts.images import generate_random_display_image_links
 
 api_version = "/api"
 

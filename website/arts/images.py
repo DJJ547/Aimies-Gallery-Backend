@@ -1,10 +1,9 @@
 import datetime
 
-from google.cloud import storage
-from gcd.GoogleStorageClient import get_google_authentication
-from gcdmysql.GcdMysqlConnector import GcdMysqlConnector
-from gcdmysql.constant import PATH
-from gcd.GoogleStorageClient import get_google_authentication
+from website.gcd.GoogleStorageClient import get_google_authentication
+from website.gcdmysql.GcdMysqlConnector import GcdMysqlConnector
+from website.gcdmysql.constant import PATH
+from website.gcd.GoogleStorageClient import get_google_authentication
 
 
 def generate_image_names_and_links(bucket_name, art_type):

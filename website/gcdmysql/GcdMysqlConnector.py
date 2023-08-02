@@ -1,7 +1,7 @@
 from google.cloud.sql.connector import Connector
-from gcdmysql.constant import DATABASE_NAME
-from gcdmysql.constant import CONNECTION_NAME
-from gcdmysql.constant import PATH
+from website.gcdmysql.constant import DATABASE_NAME
+from website.gcdmysql.constant import CONNECTION_NAME
+from website.gcdmysql.constant import PATH
 import sqlalchemy
 import os
 
