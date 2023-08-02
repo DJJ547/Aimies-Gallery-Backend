@@ -27,6 +27,10 @@ app = Flask(__name__)
 def index():
     return Response("Hello, world!", status=200)
 
+@app.route("/test")
+def test():
+    return Response("no problem!", status=200)
+
 
 @app.route(api_version + "/arts/<art_type>")
 def get_all_image_links(art_type):
