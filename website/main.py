@@ -5,7 +5,7 @@ from flask import Flask, \
     make_response, \
     request, \
     json
-from flask_cors import CORS
+# from flask_cors import CORS
 import requests
 # import packages
 import datetime
@@ -26,7 +26,7 @@ api_version = "/api"
 
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
 
 
 @app.route("/")
