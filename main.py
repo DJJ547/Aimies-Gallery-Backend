@@ -11,6 +11,7 @@ import datetime
 
 import google.cloud.storage
 import sys
+import logging
 import os
 
 from website.arts.images import generate_image_names_and_links
@@ -21,6 +22,8 @@ api_version = "/api"
 
 app = Flask(__name__)
 CORS(app)
+app.logger.addHandler(logging.StreamHandler(sys.stdout))
+app.logger.setLevel(logging.ERROR)
 
 
 @app.route("/")
