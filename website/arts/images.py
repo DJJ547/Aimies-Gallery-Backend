@@ -1,5 +1,4 @@
 import datetime
-
 from website.gcd.GoogleStorageClient import get_google_authentication
 from website.gcdmysql.GcdMysqlConnector import GcdMysqlConnector
 from website.gcdmysql.constant import PATH
@@ -49,15 +48,21 @@ def generate_random_display_image_links(bucket_name):
     print(sql_query)
     result = conn.perform_query(sql_query)
 
-    output = []
+    output = {
+        "errors": False,
+        "names": [],
+        "urls": []
+    }
     for res in result:
+        name = res[0]
         blob = bucket.blob(res[1])
-        url = blob.generate_signed_url(
+        signed_url = blob.generate_signed_url(
             version="v4",
             # This URL is valid for 30 minutes
             expiration=datetime.timedelta(minutes=30),
             # Allow GET requests using this URL.
             method="GET",
         )
-        output.append({"name": res[0], "signed_url": url})
+        output["names"].append(name)
+        output["urls"].append(signed_url)
     return output
