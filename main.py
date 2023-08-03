@@ -20,12 +20,13 @@ api_version = "/api"
 
 
 app = Flask(__name__)
-# CORS(app)
+CORS(app)
 
 
 @app.route("/")
 def index():
     return Response("Hello, world!", status=200)
+
 
 @app.route("/test")
 def test():
