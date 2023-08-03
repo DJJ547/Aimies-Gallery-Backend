@@ -5,7 +5,7 @@ from flask import Flask, \
     make_response, \
     request, \
     json
-# from flask_cors import CORS
+from flask_cors import CORS
 import requests
 import datetime
 
