@@ -33,14 +33,14 @@ def test():
     return Response("no problem!", status=200)
 
 
-@app.route(api_version + "/arts/<art_type>")
+@app.route("/arts/<art_type>")
 def get_all_image_links(art_type):
     bucket_name = 'aimiefung-art.com'
     output = generate_image_names_and_links(bucket_name, art_type)
     return Response(json.dumps(output), status=200)
 
 
-@app.route(api_version + "/home")
+@app.route("/home")
 def get_random_display_image_links():
     bucket_name = 'aimiefung-art.com'
     output = generate_random_display_image_links(bucket_name)
