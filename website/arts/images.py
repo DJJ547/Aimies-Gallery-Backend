@@ -5,6 +5,7 @@ from website.gcdmysql.constant import PATH
 from website.gcd.GoogleStorageClient import get_google_authentication
 
 
+
 def generate_image_names_and_links(bucket_name, art_type):
     storage_client = get_google_authentication()
     bucket = storage_client.bucket(bucket_name)
