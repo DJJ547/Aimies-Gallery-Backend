@@ -22,7 +22,7 @@ api_version = "/api"
 
 
 app = Flask(__name__)
-# CORS(app)
+CORS(app)
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.ERROR)
 
