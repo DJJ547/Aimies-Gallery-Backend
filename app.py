@@ -6,14 +6,10 @@ from flask import Flask, \
     request, \
     json
 from flask_cors import CORS
-import requests
 import datetime
 
-import google.cloud.storage
 import sys
 import logging
-import os
-import psycopg2
 
 from website.arts.images import generate_image_names_and_links
 from website.arts.images import generate_random_display_image_links
