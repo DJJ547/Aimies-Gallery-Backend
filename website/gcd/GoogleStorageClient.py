@@ -1,8 +1,7 @@
 from google.cloud import storage
 import os
 
-currentPath = os.path.dirname(__file__)
-# PATH = '/website/static/aimiefung-art-db-4b88d7b0f766.json'
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'C:/Users/jdai1/OneDrive/Desktop/PythonWorkSpace/AimiesGallery.flask/website/static/aimiefung-art-db-395704-97e3664dac9e.json'
 
 
 # authenticate to Cloud Storage

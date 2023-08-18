@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "aimiefung-art-db-395704",
+  "private_key_id": "97e3664dac9eaac3619526554ee9bfd760e32c46",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCkgqhj0JSDRL+s\n1wqtmoq8yspVBbH1W6/dUmysL6yGS8JTRkJY8Ku/j1bXrPxLz7ilzE3gHKgNn8wQ\nOhtXWgzcxPzstWd1uiCvxTLxzGIJMIdSjv06YIXEJR2ssqliEFBZfwPGiNwowV+U\nIWOKnGTSDIIn3e9NyjjIGMTr4uXNUG54JyJKh6KCdzpt9bUHw3wPRGpWk3AlOA6r\nJ72jUBclAGM99T67H3ATr4jJyLwDM7QekRgtf/IRdLtskr/uVJrc1ijxyi3wlNOn\nicvTyAwW5mL0IoUdGT+mysnYJ87UDMkh/h7GRskZ3WGxJtqLGjqtbXvn7nmCkt6g\nf21eIrSbAgMBAAECggEABn7AHjzAeFRRCwZsfgExhBWvml7AsXK+xUq5Tq0NLzoz\ngG0wNmm+JjCHGbnTNj0LycQAuR34hp0uBd/9b1v3UQoYAFKDNLM2EiqDgedzYXCA\nj0Jk/haMgXuDqetd46jIO1hX8lE5/APyfZs53mGhW2eyBdft2FDpIAFWWQfa0dnQ\nRjpir0Al9YnkOCMJYuoEQEgDcPcWMcAzWS77SYfihItYdBZ9ZZ8/7A3v+ehHla5N\nGqlLslz2e1sEs8VTwsmR/r2HnI+nMPFaUo+kKEw+xpJAQhpcFmI+imMzssM42lZE\nj37qHPKGaLF5K//pWYQP2azzlFa/ERYZ56pur9/V5QKBgQDoXbtvAijO8JSRD8Xi\nowu6JHWhAl8tDVyqwTnsMWU8Fr3olfo5Ql682CXSuPE6RibEs39OS+VFwidss+n9\ny/jhzyUTaBRBs7uc78bZ2GoF3W1nkx/Q5ERVPEarwmD+KbyKNWIER9vMB8NJqp89\n1xavyMr/gw6h0NGqi+JzINEHHwKBgQC1Ph8IWvALphVXZUjzGNeypsMjqSOTTEEv\n1baQinx8hzlT4R9VNDlmLgwCKfJRzqwyJ7QCmyUmqeED2MLskSKbsBg9peGtc9ps\nmP7hKyngjC5zG37Z8URs5rUuj8YpG/r42cPEO/fKWANAsP2CvUXxUa7glrTdGl06\nb4DLgsVPBQKBgQCPT+AeIxLQLwkyPqwpj63X7EywNSpGOwuANRRoXD63xL70CCv/\nzLNpfVY2lOISstmOT7agr6aEU67FGGGkqnyhqISRZ4u2ygdYT3oxOYyKeXrUeqUQ\nzPhoKXjczlHL8Cncg/gj873YJKGJebYlCddwK0MoO8h2fLgTm5rars68uQKBgQCt\n7CEHeYylAQm1xkJM1egXTiQwklzLOv/LEYCSD/MJ5RHERmI091qljUaExQ/+JR/l\nOWhqn8r04UxGzrmvHk9hq4h3kDmSo3xVfjQIi80x6BOi7h26suYAwxvWxK1aQbmD\nGCXep9VPXUoxyCZeUZdOzh3M85I4ItaX/uxPXvxMqQKBgQC7H3UBgd+nySdWnmzr\naZO3wrI46F0CDS4Yu35dMq3GVuCvWWGpFeWUsg6rFurk/DXyDH31ANlkLe4vX9ku\n0HCBZ4872ga/ikfVid6qUAOsdax1LSOUVYNfQ8r+4OkHzN4qc+aVD+0POve1soys\nGylEXV2c1z5y7VUzz0KZwU44lQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "aimiefungart-backend-service-a@aimiefung-art-db-395704.iam.gserviceaccount.com",
+  "client_id": "114302546014945625669",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aimiefungart-backend-service-a%40aimiefung-art-db-395704.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
